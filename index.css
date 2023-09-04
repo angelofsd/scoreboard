@@ -1,0 +1,82 @@
+body {
+    margin: 0;
+    background: linear-gradient(#1F2937, black);
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+}
+ 
+.container {
+    display: flex;
+    justify-content: space-around;
+}
+
+h1 {
+    border-radius: 3px;
+    margin: 0;
+    line-height: 127px;
+    background-color: black;
+    height: 120px;
+    width: 150px;
+    text-align: center;
+    font-family: scoreboard;
+    font-size: 90px;
+    color: #F94F6D;
+    margin-bottom: 25px;
+}
+
+h3 {
+    text-align: center;
+    color: white;
+    font-weight: 200;
+    font-size: 40px;
+    font-family: infinite;
+    text-shadow: 0px 0px 2px black;
+}
+
+@font-face {
+    src: url("scoreboard.ttf");
+    font-family: scoreboard;
+}
+
+@font-face {
+    src: url("infinitebeyond.ttf");
+    font-family: infinite;
+}
+
+.home-buttons, .away-buttons {
+    display: flex;
+    justify-content: space-between;
+}
+
+button {
+    font-family: scoreboard;
+    color: white;
+    border: solid white 1px;
+    border-bottom: solid white 2px;
+    
+    padding: 10px;
+    border-radius: 4px;
+    background-color: #D1D5DB;
+    background-color: #111827;
+}
+
+#extra {
+    
+     margin-top: 20px;
+     display: flex;
+     justify-content: center;
+    
+}
+
+#newgame {
+    font-family: infinite;
+    padding: 15px;
+    color: darkred;
+    text-shadow: 0px 0px 2px black;
+}
+
+#newgame:hover {
+    color:black;
+    background-color: white;
+}
